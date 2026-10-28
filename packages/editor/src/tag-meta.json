@@ -1,0 +1,830 @@
+{
+  "aa": {
+    "label": "Reset air-attack state",
+    "category": "combat"
+  },
+  "ab": {
+    "label": "Allow passing through walls",
+    "category": "position"
+  },
+  "ac": {
+    "label": "Face arena centre",
+    "category": "position"
+  },
+  "ad": {
+    "label": "Turn toward held direction",
+    "category": "position"
+  },
+  "ae": {
+    "label": "ae",
+    "category": "advanced"
+  },
+  "af": {
+    "label": "Freeze opponent",
+    "category": "combat"
+  },
+  "ag": {
+    "label": "ag",
+    "category": "advanced"
+  },
+  "ai": {
+    "label": "Hit launches opponent",
+    "category": "combat"
+  },
+  "al": {
+    "label": "al",
+    "category": "advanced"
+  },
+  "am": {
+    "label": "Stop walking marker",
+    "category": "position"
+  },
+  "ao": {
+    "label": "ao",
+    "category": "advanced"
+  },
+  "ar": {
+    "label": "Reverse facing",
+    "category": "position"
+  },
+  "as": {
+    "label": "as",
+    "category": "advanced"
+  },
+  "at": {
+    "label": "Position behind enemy",
+    "category": "position"
+  },
+  "aw": {
+    "label": "May pass through walls",
+    "category": "position"
+  },
+  "ax": {
+    "label": "Fall through the floor",
+    "category": "position"
+  },
+  "b": {
+    "label": "b",
+    "category": "advanced"
+  },
+  "b1": {
+    "label": "Advance to Fire / Ice fight",
+    "category": "screen"
+  },
+  "b2": {
+    "label": "Break Fire Pit grate",
+    "category": "screen"
+  },
+  "ba": {
+    "label": "Credits fade: remapping",
+    "category": "appearance",
+    "arg": {
+      "kind": "raw"
+    }
+  },
+  "bb": {
+    "label": "Vertical screen shake",
+    "category": "screen",
+    "arg": {
+      "kind": "raw"
+    }
+  },
+  "bc": {
+    "label": "Credits fade: colour count",
+    "category": "appearance",
+    "arg": {
+      "kind": "count"
+    }
+  },
+  "bd": {
+    "label": "Credits fade: switch",
+    "category": "appearance"
+  },
+  "be": {
+    "label": "Block end of round",
+    "category": "screen"
+  },
+  "bf": {
+    "label": "Blend finish",
+    "category": "appearance",
+    "arg": {
+      "kind": "raw"
+    }
+  },
+  "bg": {
+    "label": "Credits fade: unknown",
+    "category": "appearance"
+  },
+  "bh": {
+    "label": "Ignore bounds checking",
+    "category": "position"
+  },
+  "bi": {
+    "label": "Credits fade: start index",
+    "category": "appearance",
+    "arg": {
+      "kind": "paletteIndex"
+    }
+  },
+  "bj": {
+    "label": "Jump to animation",
+    "category": "chain",
+    "arg": {
+      "kind": "animId"
+    }
+  },
+  "bk": {
+    "label": "bk",
+    "category": "advanced",
+    "arg": {
+      "kind": "raw"
+    }
+  },
+  "bl": {
+    "label": "Horizontal screen shake",
+    "category": "screen",
+    "arg": {
+      "kind": "raw"
+    }
+  },
+  "bm": {
+    "label": "Play animation meanwhile",
+    "category": "chain",
+    "arg": {
+      "kind": "animId"
+    }
+  },
+  "bn": {
+    "label": "Unblockable",
+    "category": "combat"
+  },
+  "bo": {
+    "label": "bo",
+    "category": "advanced",
+    "arg": {
+      "kind": "raw"
+    }
+  },
+  "bpb": {
+    "label": "Palette: initial level",
+    "category": "appearance",
+    "arg": {
+      "kind": "raw"
+    }
+  },
+  "bpd": {
+    "label": "Palette: reference index",
+    "category": "appearance",
+    "arg": {
+      "kind": "paletteIndex"
+    }
+  },
+  "bpf": {
+    "label": "Palette: fighter palette selection",
+    "category": "appearance"
+  },
+  "bpn": {
+    "label": "Palette: entry count",
+    "category": "appearance",
+    "arg": {
+      "kind": "count"
+    }
+  },
+  "bpo": {
+    "label": "Palette: disable effects",
+    "category": "appearance"
+  },
+  "bpp": {
+    "label": "Palette: initial and final level",
+    "category": "appearance",
+    "arg": {
+      "kind": "raw"
+    }
+  },
+  "bps": {
+    "label": "Palette: start index",
+    "category": "appearance",
+    "arg": {
+      "kind": "paletteIndex"
+    }
+  },
+  "br": {
+    "label": "Draw additively",
+    "category": "appearance"
+  },
+  "bs": {
+    "label": "Blend start",
+    "category": "appearance",
+    "arg": {
+      "kind": "raw"
+    }
+  },
+  "bt": {
+    "label": "Dark tint (Shadow)",
+    "category": "appearance"
+  },
+  "bu": {
+    "label": "Move to arena centre (destruct)",
+    "category": "position"
+  },
+  "bw": {
+    "label": "bw",
+    "category": "advanced"
+  },
+  "bx": {
+    "label": "bx",
+    "category": "advanced"
+  },
+  "by": {
+    "label": "by",
+    "category": "advanced"
+  },
+  "bz": {
+    "label": "Colour tint effect",
+    "category": "appearance"
+  },
+  "cf": {
+    "label": "Walk to far corner (with `bm`)",
+    "category": "position"
+  },
+  "cg": {
+    "label": "cg",
+    "category": "advanced"
+  },
+  "cl": {
+    "label": "Next animation on landing",
+    "category": "chain"
+  },
+  "cp": {
+    "label": "Hit pause on successful hit",
+    "category": "combat"
+  },
+  "cw": {
+    "label": "cw",
+    "category": "advanced"
+  },
+  "cx": {
+    "label": "cx",
+    "category": "advanced",
+    "arg": {
+      "kind": "raw"
+    }
+  },
+  "cy": {
+    "label": "Vertical player control, speed",
+    "category": "position",
+    "arg": {
+      "kind": "count"
+    }
+  },
+  "d": {
+    "label": "Re-enter at tick",
+    "category": "chain",
+    "arg": {
+      "kind": "ticks",
+      "note": "negative counts from the end"
+    }
+  },
+  "e": {
+    "label": "Move to enemy position",
+    "category": "position"
+  },
+  "f": {
+    "label": "Flip vertically",
+    "category": "appearance"
+  },
+  "g": {
+    "label": "Snap to ground, zero velocity",
+    "category": "position"
+  },
+  "h": {
+    "label": "Zero velocity every tick",
+    "category": "position"
+  },
+  "i": {
+    "label": "Interrupted on block",
+    "category": "combat"
+  },
+  "jf": {
+    "label": "Allow chain to scrap",
+    "category": "chain"
+  },
+  "jf2": {
+    "label": "Allow chain to destruction",
+    "category": "chain"
+  },
+  "jg": {
+    "label": "Getup-related (unknown)",
+    "category": "chain"
+  },
+  "jh": {
+    "label": "Allow chain to high moves",
+    "category": "chain"
+  },
+  "jj": {
+    "label": "Allow chain to airborne moves",
+    "category": "chain"
+  },
+  "jl": {
+    "label": "Allow chain to low moves",
+    "category": "chain"
+  },
+  "jm": {
+    "label": "Allow chain to mid moves",
+    "category": "chain"
+  },
+  "jn": {
+    "label": "Allow chain to animation",
+    "category": "chain",
+    "arg": {
+      "kind": "animId"
+    }
+  },
+  "jp": {
+    "label": "Allow chain to projectile moves",
+    "category": "chain"
+  },
+  "jz": {
+    "label": "Allow chain to anything",
+    "category": "chain"
+  },
+  "k": {
+    "label": "Knockback on hit",
+    "category": "combat",
+    "arg": {
+      "kind": "raw"
+    }
+  },
+  "l": {
+    "label": "Loudness",
+    "category": "sound",
+    "arg": {
+      "kind": "raw"
+    }
+  },
+  "m": {
+    "label": "Spawn animation",
+    "category": "spawn",
+    "arg": {
+      "kind": "animId"
+    }
+  },
+  "ma": {
+    "label": "Spawn angle",
+    "category": "spawn",
+    "arg": {
+      "kind": "degrees"
+    }
+  },
+  "mc": {
+    "label": "mc",
+    "category": "advanced"
+  },
+  "md": {
+    "label": "Destroy animation",
+    "category": "spawn",
+    "arg": {
+      "kind": "animId"
+    }
+  },
+  "mg": {
+    "label": "Spawn gravity",
+    "category": "spawn",
+    "arg": {
+      "kind": "raw"
+    }
+  },
+  "mi": {
+    "label": "Spawn instance count",
+    "category": "spawn",
+    "arg": {
+      "kind": "count"
+    }
+  },
+  "mm": {
+    "label": "Select animation for `mo`/`mu`",
+    "category": "chain",
+    "arg": {
+      "kind": "animId"
+    }
+  },
+  "mn": {
+    "label": "mn",
+    "category": "advanced",
+    "arg": {
+      "kind": "raw"
+    }
+  },
+  "mo": {
+    "label": "Set flag on `mm` animation",
+    "category": "chain"
+  },
+  "mp": {
+    "label": "Spawn feature bitmask",
+    "category": "spawn",
+    "arg": {
+      "kind": "raw",
+      "hex": true
+    }
+  },
+  "mrx": {
+    "label": "Spawn X random range",
+    "category": "spawn",
+    "arg": {
+      "kind": "pixels"
+    }
+  },
+  "mry": {
+    "label": "Spawn Y random range",
+    "category": "spawn",
+    "arg": {
+      "kind": "pixels"
+    }
+  },
+  "ms": {
+    "label": "Special Y placement (y = −4·(y−188))",
+    "category": "position"
+  },
+  "mu": {
+    "label": "Disable `mm` animation for N ticks",
+    "category": "chain",
+    "arg": {
+      "kind": "ticks"
+    }
+  },
+  "mx": {
+    "label": "Spawn X",
+    "category": "spawn",
+    "arg": {
+      "kind": "pixels"
+    }
+  },
+  "my": {
+    "label": "Spawn Y",
+    "category": "spawn",
+    "arg": {
+      "kind": "pixels"
+    }
+  },
+  "n": {
+    "label": "No collision this frame",
+    "category": "combat"
+  },
+  "ox": {
+    "label": "Sprite X correction",
+    "category": "position",
+    "arg": {
+      "kind": "pixels"
+    }
+  },
+  "oy": {
+    "label": "Sprite Y correction",
+    "category": "position",
+    "arg": {
+      "kind": "pixels"
+    }
+  },
+  "pa": {
+    "label": "HAR palette effect: enable",
+    "category": "appearance"
+  },
+  "pb": {
+    "label": "HAR palette effect: value (<512)",
+    "category": "appearance",
+    "arg": {
+      "kind": "raw"
+    }
+  },
+  "pc": {
+    "label": "HAR palette effect: value (<512)",
+    "category": "appearance",
+    "arg": {
+      "kind": "raw"
+    }
+  },
+  "pd": {
+    "label": "HAR palette effect: reference colour",
+    "category": "appearance",
+    "arg": {
+      "kind": "paletteIndex"
+    }
+  },
+  "pe": {
+    "label": "HAR palette effect: apply to other HAR",
+    "category": "appearance"
+  },
+  "ph": {
+    "label": "HAR palette effect: only in damage anim",
+    "category": "appearance"
+  },
+  "pp": {
+    "label": "HAR palette effect: intensity / duration",
+    "category": "appearance",
+    "arg": {
+      "kind": "ticks"
+    }
+  },
+  "ps": {
+    "label": "Update colour palette",
+    "category": "appearance"
+  },
+  "ptd": {
+    "label": "Effect fade-in",
+    "category": "appearance",
+    "arg": {
+      "kind": "ticks",
+      "min": 0,
+      "max": 127
+    }
+  },
+  "ptp": {
+    "label": "Effect hold",
+    "category": "appearance",
+    "arg": {
+      "kind": "ticks",
+      "min": 0,
+      "max": 127
+    }
+  },
+  "ptr": {
+    "label": "Effect fade-out",
+    "category": "appearance",
+    "arg": {
+      "kind": "ticks",
+      "min": 0,
+      "max": 127
+    }
+  },
+  "q": {
+    "label": "Hit enabled for N frames",
+    "category": "combat",
+    "arg": {
+      "kind": "count",
+      "min": 1
+    }
+  },
+  "r": {
+    "label": "Flip horizontally",
+    "category": "appearance"
+  },
+  "s": {
+    "label": "Play sound slot",
+    "category": "sound",
+    "arg": {
+      "kind": "soundIndex",
+      "min": 0,
+      "max": 29
+    }
+  },
+  "sa": {
+    "label": "sa",
+    "category": "advanced"
+  },
+  "sb": {
+    "label": "Panning start",
+    "category": "sound",
+    "arg": {
+      "kind": "raw"
+    }
+  },
+  "sc": {
+    "label": "sc",
+    "category": "advanced",
+    "arg": {
+      "kind": "raw"
+    }
+  },
+  "sd": {
+    "label": "sd",
+    "category": "advanced"
+  },
+  "se": {
+    "label": "Panning end 1",
+    "category": "sound",
+    "arg": {
+      "kind": "raw"
+    }
+  },
+  "sf": {
+    "label": "Frequency",
+    "category": "sound",
+    "arg": {
+      "kind": "raw"
+    }
+  },
+  "sl": {
+    "label": "Panning end 2",
+    "category": "sound",
+    "arg": {
+      "kind": "raw"
+    }
+  },
+  "smf": {
+    "label": "Stop music track",
+    "category": "sound",
+    "arg": {
+      "kind": "musicTrack"
+    }
+  },
+  "smo": {
+    "label": "Play music track",
+    "category": "sound",
+    "arg": {
+      "kind": "musicTrack"
+    }
+  },
+  "sp": {
+    "label": "sp",
+    "category": "advanced",
+    "arg": {
+      "kind": "raw"
+    }
+  },
+  "sw": {
+    "label": "sw",
+    "category": "advanced",
+    "arg": {
+      "kind": "raw"
+    }
+  },
+  "t": {
+    "label": "Mute sound if other HAR blocks",
+    "category": "combat"
+  },
+  "u": {
+    "label": "Bring sprite to front",
+    "category": "appearance"
+  },
+  "ua": {
+    "label": "Force enemy into damage animation",
+    "category": "combat"
+  },
+  "ub": {
+    "label": "Motion blur",
+    "category": "appearance"
+  },
+  "uc": {
+    "label": "uc",
+    "category": "advanced"
+  },
+  "ud": {
+    "label": "ud",
+    "category": "advanced"
+  },
+  "ue": {
+    "label": "Damage enemy if grounded",
+    "category": "combat"
+  },
+  "uf": {
+    "label": "uf",
+    "category": "advanced"
+  },
+  "ug": {
+    "label": "ug",
+    "category": "advanced"
+  },
+  "uh": {
+    "label": "uh",
+    "category": "advanced"
+  },
+  "uj": {
+    "label": "uj",
+    "category": "advanced"
+  },
+  "ul": {
+    "label": "ul",
+    "category": "advanced"
+  },
+  "un": {
+    "label": "Disable corner push",
+    "category": "combat"
+  },
+  "ur": {
+    "label": "Keep blocking opponent blocking",
+    "category": "combat"
+  },
+  "us": {
+    "label": "us",
+    "category": "advanced"
+  },
+  "uz": {
+    "label": "Shadow grab: vanish on damage",
+    "category": "combat"
+  },
+  "v": {
+    "label": "Apply x±/y± as velocity",
+    "category": "position"
+  },
+  "vsx": {
+    "label": "vsx",
+    "category": "advanced"
+  },
+  "vsy": {
+    "label": "vsy",
+    "category": "advanced"
+  },
+  "w": {
+    "label": "Push sprite to back",
+    "category": "appearance"
+  },
+  "x": {
+    "label": "Scale width %",
+    "category": "appearance",
+    "arg": {
+      "kind": "percent",
+      "min": 0,
+      "note": "x-5 would be the x- tag, so the value cannot be negative"
+    }
+  },
+  "x+": {
+    "label": "Move right each tick by",
+    "category": "position",
+    "arg": {
+      "kind": "pixels",
+      "min": 0,
+      "max": 511
+    }
+  },
+  "x-": {
+    "label": "Move left each tick by",
+    "category": "position",
+    "arg": {
+      "kind": "pixels",
+      "min": 0,
+      "max": 511
+    }
+  },
+  "x=": {
+    "label": "Slide X to (by next `x=` frame)",
+    "category": "position",
+    "arg": {
+      "kind": "pixels",
+      "min": -512,
+      "max": 511
+    }
+  },
+  "y": {
+    "label": "Scale height %",
+    "category": "appearance",
+    "arg": {
+      "kind": "percent",
+      "min": 0,
+      "note": "y-5 would be the y- tag, so the value cannot be negative"
+    }
+  },
+  "y+": {
+    "label": "Move down each tick by",
+    "category": "position",
+    "arg": {
+      "kind": "pixels",
+      "min": 0,
+      "max": 511
+    }
+  },
+  "y-": {
+    "label": "Move up each tick by",
+    "category": "position",
+    "arg": {
+      "kind": "pixels",
+      "min": 0,
+      "max": 511
+    }
+  },
+  "y=": {
+    "label": "Slide Y to (by next `y=` frame)",
+    "category": "position",
+    "arg": {
+      "kind": "pixels",
+      "min": -512,
+      "max": 511
+    }
+  },
+  "zg": {
+    "label": "zg",
+    "category": "advanced"
+  },
+  "zh": {
+    "label": "zh",
+    "category": "advanced"
+  },
+  "zj": {
+    "label": "Invulnerable to jumping attacks",
+    "category": "combat"
+  },
+  "zl": {
+    "label": "zl",
+    "category": "advanced"
+  },
+  "zm": {
+    "label": "zm",
+    "category": "advanced"
+  },
+  "zp": {
+    "label": "Invulnerable to projectiles",
+    "category": "combat"
+  },
+  "zz": {
+    "label": "Invulnerable to all",
+    "category": "combat"
+  }
+}

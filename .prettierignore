@@ -1,0 +1,13 @@
+specs/
+pnpm-lock.yaml
+dist/
+coverage/
+packages/omf-formats/src/tags.json
+packages/omf-formats/test/fixtures/openomf-strings.json
+packages/omf-formats/src/cp437.ts
+dist-e2e/
+.scratch/
+test-results/
+playwright-report/
+.fixtures/
+.claude/

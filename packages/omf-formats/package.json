@@ -1,0 +1,16 @@
+{
+  "name": "@omf/formats",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Readers and writers for One Must Fall 2097 AF and BK files",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json --noEmit",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run"
+  }
+}

@@ -1,0 +1,622 @@
+{
+  "tags": {
+    "aa": {
+      "arg": false,
+      "desc": "Reset your air attack state if you have already performed one"
+    },
+    "ab": {
+      "arg": false,
+      "desc": "Allow passing through walls"
+    },
+    "ac": {
+      "arg": false,
+      "desc": "Turn the HAR to face the center of the arena"
+    },
+    "ad": {
+      "arg": false,
+      "desc": "Allow the HAR to turn in the held direction. Used in Katana's wall spin and Heel Stomp"
+    },
+    "ae": {
+      "arg": false,
+      "desc": ""
+    },
+    "af": {
+      "arg": false,
+      "desc": "Freeze opponent HAR"
+    },
+    "ag": {
+      "arg": false,
+      "desc": ""
+    },
+    "ai": {
+      "arg": false,
+      "desc": "Hit will launch"
+    },
+    "al": {
+      "arg": false,
+      "desc": ""
+    },
+    "am": {
+      "arg": false,
+      "desc": "With the enemy modifier, 'ame' is related to the bm tag and tells OMF when to stop walking"
+    },
+    "ao": {
+      "arg": false,
+      "desc": "Nova death related, something to do with loose robot parts ?"
+    },
+    "ar": {
+      "arg": false,
+      "desc": "Reverse player direction"
+    },
+    "as": {
+      "arg": false,
+      "desc": "Makes the fire orb 'wander' in the fire pit b"
+    },
+    "at": {
+      "arg": false,
+      "desc": "Sets object position behind enemy har, used only by chronos' teleport"
+    },
+    "aw": {
+      "arg": false,
+      "desc": "Tells if the HAR can pass through walls"
+    },
+    "ax": {
+      "arg": false,
+      "desc": "Ignore the ground and fall through the floor"
+    },
+    "b": {
+      "arg": false,
+      "desc": ""
+    },
+    "b1": {
+      "arg": false,
+      "desc": "Advances you to fight Fire, and on Fire's stage advances you to fight Ice"
+    },
+    "b2": {
+      "arg": false,
+      "desc": "Breaks the grate on the floor of the Fire Pit, if it is breakable"
+    },
+    "ba": {
+      "arg": true,
+      "desc": "Credits fade effect remapping (?)"
+    },
+    "bb": {
+      "arg": true,
+      "desc": "Vertical screen shake"
+    },
+    "bc": {
+      "arg": true,
+      "desc": "Credits fade effect color count"
+    },
+    "bd": {
+      "arg": false,
+      "desc": "Credits fade effect switch"
+    },
+    "be": {
+      "arg": false,
+      "desc": "Block the end of the round, used in scrap/destruct"
+    },
+    "bf": {
+      "arg": true,
+      "desc": "Blend finish"
+    },
+    "bg": {
+      "arg": false,
+      "desc": "Credits fade effect unknown"
+    },
+    "bh": {
+      "arg": false,
+      "desc": "Possibly used to ignore bounds checking"
+    },
+    "bi": {
+      "arg": true,
+      "desc": "Credits fade effect color start index"
+    },
+    "bj": {
+      "arg": true,
+      "desc": "Jump to animation <n>"
+    },
+    "bk": {
+      "arg": true,
+      "desc": ""
+    },
+    "bl": {
+      "arg": true,
+      "desc": "Horizontal screen shake with magnitude n"
+    },
+    "bm": {
+      "arg": true,
+      "desc": "Animation to play while doing something"
+    },
+    "bn": {
+      "arg": false,
+      "desc": "Unblockable move"
+    },
+    "bo": {
+      "arg": true,
+      "desc": ""
+    },
+    "bpb": {
+      "arg": true,
+      "desc": "Initial color level"
+    },
+    "bpd": {
+      "arg": true,
+      "desc": "Reference palette index"
+    },
+    "bpf": {
+      "arg": false,
+      "desc": "Fighter palette selection"
+    },
+    "bpn": {
+      "arg": true,
+      "desc": "Palette entry count"
+    },
+    "bpo": {
+      "arg": false,
+      "desc": "Disable palette effects"
+    },
+    "bpp": {
+      "arg": true,
+      "desc": "Initial and final color level"
+    },
+    "bps": {
+      "arg": true,
+      "desc": "Start palette index"
+    },
+    "br": {
+      "arg": false,
+      "desc": "Draw additively"
+    },
+    "bs": {
+      "arg": true,
+      "desc": "Blend start"
+    },
+    "bt": {
+      "arg": false,
+      "desc": "Dark tint, used by shadow HAR"
+    },
+    "bu": {
+      "arg": false,
+      "desc": "Used by jaguar's destruct to move to center of arena"
+    },
+    "bw": {
+      "arg": false,
+      "desc": ""
+    },
+    "bx": {
+      "arg": false,
+      "desc": ""
+    },
+    "by": {
+      "arg": false,
+      "desc": ""
+    },
+    "bz": {
+      "arg": false,
+      "desc": "Color tint effect"
+    },
+    "cf": {
+      "arg": false,
+      "desc": "Only used by shadow scrap, works with 'bm' tag to walk to far corner of arena"
+    },
+    "cg": {
+      "arg": false,
+      "desc": "Triggers behaviors when touching the ground. Used by Katana Corkscrew Blade. (Enables the d<> tag)"
+    },
+    "cl": {
+      "arg": false,
+      "desc": "Triggers the next animation when touching the ground. Used by Pyros to proceed with scrap."
+    },
+    "cp": {
+      "arg": false,
+      "desc": "If hit collision succeeds, perform hit pause"
+    },
+    "cw": {
+      "arg": false,
+      "desc": ""
+    },
+    "cx": {
+      "arg": true,
+      "desc": "The player has horizontal control by holding left/right. Larger numbers mean faster movement"
+    },
+    "cy": {
+      "arg": true,
+      "desc": "The player has vertical control by holding up/down. Larger numbers mean faster movement"
+    },
+    "d": {
+      "arg": true,
+      "desc": "Re-enter animation at N ticks.  If negative, enter animation this many ticks from the end"
+    },
+    "e": {
+      "arg": false,
+      "desc": "Set position to enemy position"
+    },
+    "f": {
+      "arg": false,
+      "desc": "Flip sprite vertically"
+    },
+    "g": {
+      "arg": false,
+      "desc": "Set position to ground and zero velocity"
+    },
+    "h": {
+      "arg": false,
+      "desc": "Set velocity to 0; applied every tick"
+    },
+    "i": {
+      "arg": false,
+      "desc": "Move is interrupted on block"
+    },
+    "jf": {
+      "arg": false,
+      "desc": "Allow chaining to scrap"
+    },
+    "jf2": {
+      "arg": false,
+      "desc": "Allow chaining to destruction"
+    },
+    "jg": {
+      "arg": false,
+      "desc": "Every HAR uses this in the 'getup' animation, purpose unknown, might be 'grab' (like standing throw)?"
+    },
+    "jh": {
+      "arg": false,
+      "desc": "Allow chaining to 'high' moves"
+    },
+    "jj": {
+      "arg": false,
+      "desc": "Allow chaining to airborne moves"
+    },
+    "jl": {
+      "arg": false,
+      "desc": "Allow chaining to 'low' moves"
+    },
+    "jm": {
+      "arg": false,
+      "desc": "Allow chaining to 'mid' moves"
+    },
+    "jn": {
+      "arg": true,
+      "desc": "Allow frame to chain to animation N"
+    },
+    "jp": {
+      "arg": false,
+      "desc": "Allow chaining to 'projectile' moves, not used"
+    },
+    "jz": {
+      "arg": false,
+      "desc": "Allow chaining to anything? (Katana head stomp)"
+    },
+    "k": {
+      "arg": true,
+      "desc": "Knockback on hit"
+    },
+    "l": {
+      "arg": true,
+      "desc": "Sound loudness"
+    },
+    "m": {
+      "arg": true,
+      "desc": "Create instance of animation N"
+    },
+    "ma": {
+      "arg": true,
+      "desc": "Sets angle of new object in degrees. Velocity is then x=cos(ma), y=sin(ma)."
+    },
+    "mc": {
+      "arg": false,
+      "desc": ""
+    },
+    "md": {
+      "arg": true,
+      "desc": "Destroy animation N"
+    },
+    "mg": {
+      "arg": true,
+      "desc": "Gravity for spawned animation, default 0"
+    },
+    "mi": {
+      "arg": true,
+      "desc": "Instance count for spawned animation, default 1"
+    },
+    "mm": {
+      "arg": true,
+      "desc": "Selects an animation ID for use with mo, mu tags."
+    },
+    "mn": {
+      "arg": true,
+      "desc": ""
+    },
+    "mo": {
+      "arg": false,
+      "desc": "Enables some flag on animation selected with MM. Possibly used on other HAR ?"
+    },
+    "mp": {
+      "arg": true,
+      "desc": "Feature bitmask"
+    },
+    "mrx": {
+      "arg": true,
+      "desc": "Randomize new animation X"
+    },
+    "mry": {
+      "arg": true,
+      "desc": "Randomize new animation Y"
+    },
+    "ms": {
+      "arg": false,
+      "desc": "Set special Y position for object; y = -4 * (y - 188)"
+    },
+    "mu": {
+      "arg": true,
+      "desc": "Sets animation MM unavailable for use for the next <n> ticks"
+    },
+    "mx": {
+      "arg": true,
+      "desc": "X position of new animation"
+    },
+    "my": {
+      "arg": true,
+      "desc": "Y position of new animation"
+    },
+    "n": {
+      "arg": false,
+      "desc": "Disable collision detection for the current frame"
+    },
+    "ox": {
+      "arg": true,
+      "desc": "Set sprite X correction for this frame"
+    },
+    "oy": {
+      "arg": true,
+      "desc": "Set sprite Y correction for this frame"
+    },
+    "pa": {
+      "arg": false,
+      "desc": "Enable color effect for HAR palette effects"
+    },
+    "pb": {
+      "arg": true,
+      "desc": "N < 512"
+    },
+    "pc": {
+      "arg": true,
+      "desc": "N < 512"
+    },
+    "pd": {
+      "arg": true,
+      "desc": "n < 256. Reference color index."
+    },
+    "pe": {
+      "arg": false,
+      "desc": "Switch HAR palette effect handling to the other HAR."
+    },
+    "ph": {
+      "arg": false,
+      "desc": "Disable HAR palette effects if HAR is not in damage animation (9)"
+    },
+    "pp": {
+      "arg": true,
+      "desc": "Duration of HAR palette effect in ticks."
+    },
+    "ps": {
+      "arg": false,
+      "desc": "Update the color palette"
+    },
+    "ptd": {
+      "arg": true,
+      "desc": "Effect fade-in time in ticks (0-127)"
+    },
+    "ptp": {
+      "arg": true,
+      "desc": "Effect constant max-value time in ticks (0-127)"
+    },
+    "ptr": {
+      "arg": true,
+      "desc": "Effect fade-out time in ticks (0-127)"
+    },
+    "q": {
+      "arg": true,
+      "desc": "Enable hit on current and next n-1 frames."
+    },
+    "r": {
+      "arg": false,
+      "desc": "Flip sprite horizontally"
+    },
+    "s": {
+      "arg": true,
+      "desc": "Play sound N from sound table footer"
+    },
+    "sa": {
+      "arg": false,
+      "desc": ""
+    },
+    "sb": {
+      "arg": true,
+      "desc": "Sound panning start"
+    },
+    "sc": {
+      "arg": true,
+      "desc": ""
+    },
+    "sd": {
+      "arg": false,
+      "desc": ""
+    },
+    "se": {
+      "arg": true,
+      "desc": "Sound panning end 1"
+    },
+    "sf": {
+      "arg": true,
+      "desc": "Sound frequency"
+    },
+    "sl": {
+      "arg": true,
+      "desc": "Sound panning end 2"
+    },
+    "smf": {
+      "arg": true,
+      "desc": "Stop playing music track N"
+    },
+    "smo": {
+      "arg": true,
+      "desc": "Play music track N"
+    },
+    "sp": {
+      "arg": true,
+      "desc": ""
+    },
+    "sw": {
+      "arg": true,
+      "desc": ""
+    },
+    "t": {
+      "arg": false,
+      "desc": "Prevent sound from playing if other HAR is blocking"
+    },
+    "u": {
+      "arg": false,
+      "desc": "Bring sprite to the front"
+    },
+    "ua": {
+      "arg": false,
+      "desc": "Sets enemy HAR to a damage animation and sets the enemy HAR's animation timing to match yours."
+    },
+    "ub": {
+      "arg": false,
+      "desc": "Motion blur effect"
+    },
+    "uc": {
+      "arg": false,
+      "desc": ""
+    },
+    "ud": {
+      "arg": false,
+      "desc": ""
+    },
+    "ue": {
+      "arg": false,
+      "desc": "Damage enemy if on the ground"
+    },
+    "uf": {
+      "arg": false,
+      "desc": "Only used by shadow grab (both forms) and shadow scrap. May have to do with opponent's ground state."
+    },
+    "ug": {
+      "arg": false,
+      "desc": ""
+    },
+    "uh": {
+      "arg": false,
+      "desc": ""
+    },
+    "uj": {
+      "arg": false,
+      "desc": ""
+    },
+    "ul": {
+      "arg": false,
+      "desc": ""
+    },
+    "un": {
+      "arg": false,
+      "desc": "Disable cornerpush behavior"
+    },
+    "ur": {
+      "arg": false,
+      "desc": "If the opponent is blocking, force them to stay blocking."
+    },
+    "us": {
+      "arg": false,
+      "desc": ""
+    },
+    "uz": {
+      "arg": false,
+      "desc": "Used in shadow grab. Causes the shadow to disappear when the opponent takes damage"
+    },
+    "v": {
+      "arg": false,
+      "desc": "Velocity modifier for x/y"
+    },
+    "vsx": {
+      "arg": false,
+      "desc": ""
+    },
+    "vsy": {
+      "arg": false,
+      "desc": ""
+    },
+    "w": {
+      "arg": false,
+      "desc": "Sprite caching related ?"
+    },
+    "x": {
+      "arg": true,
+      "desc": "Scale image as % of width (default 100)"
+    },
+    "x+": {
+      "arg": true,
+      "desc": "Set X coordinate to +N"
+    },
+    "x-": {
+      "arg": true,
+      "desc": "Set X coordinate to -N"
+    },
+    "x=": {
+      "arg": true,
+      "desc": "Interpolate X coordinate to N by next frame"
+    },
+    "y": {
+      "arg": true,
+      "desc": "Scale image as % of height (default 100)"
+    },
+    "y+": {
+      "arg": true,
+      "desc": "Set Y coordinate to +N"
+    },
+    "y-": {
+      "arg": true,
+      "desc": "Set Y coordinate to -N"
+    },
+    "y=": {
+      "arg": true,
+      "desc": "Interpolate Y coordinate to N by next frame"
+    },
+    "zg": {
+      "arg": false,
+      "desc": "Never used?"
+    },
+    "zh": {
+      "arg": false,
+      "desc": "Never used?"
+    },
+    "zj": {
+      "arg": false,
+      "desc": "Invulnerable to jumping attacks"
+    },
+    "zl": {
+      "arg": false,
+      "desc": "Never used?"
+    },
+    "zm": {
+      "arg": false,
+      "desc": "Never used?"
+    },
+    "zp": {
+      "arg": false,
+      "desc": "Invulnerable to projectiles"
+    },
+    "zz": {
+      "arg": false,
+      "desc": "Invulnerable to any attacks"
+    }
+  },
+  "invalid": [
+    "c",
+    "o",
+    "p",
+    "z"
+  ]
+}

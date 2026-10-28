@@ -1,0 +1,38 @@
+{
+  "name": "@omf/editor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "vue-tsc --noEmit",
+    "test": "vitest run",
+    "e2e": "playwright test"
+  },
+  "dependencies": {
+    "@omf/formats": "workspace:*",
+    "@vueuse/core": "^15.0.0",
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.2",
+    "fast-png": "^8.0.0",
+    "fflate": "^0.8.3",
+    "gifenc": "^1.0.3",
+    "idb": "^8.0.4",
+    "vue": "^3.5.44",
+    "vue-router": "^5.4.0"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "@playwright/test": "^1.64.1",
+    "@types/wicg-file-system-access": "^2023.10.7",
+    "@vitejs/plugin-vue": "^6.0.10",
+    "@vue/test-utils": "^2.5.1",
+    "happy-dom": "^21.0.4",
+    "tsx": "^4.23.15",
+    "vite": "^8.3.5",
+    "vue-tsc": "^3.3.13"
+  }
+}
